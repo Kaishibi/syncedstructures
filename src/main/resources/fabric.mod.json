@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "syncedstructures",
+  "version": "${version}",
+  "name": "SyncedStructures",
+  "description": "Puts all of the structure features in every biome",
+  "authors": ["Wurgo"],
+  "contact": {
+    "homepage": "https://github.com/wurgo"
+  },
+  "license": "MIT",
+  "icon": "assets/syncedstructures/icon.png",
+  "environment": "client",
+  "mixins": ["syncedstructures.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}
